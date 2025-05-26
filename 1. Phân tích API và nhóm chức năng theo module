@@ -1,0 +1,2 @@
+# Phân tích API và nhóm chức năng theo module
+Trước tiên, liệt kê và phân tích tất cả các endpoint hiện có, sau đó nhóm chúng theo chức năng (modules) để thuận tiện cho việc tổ chức tài liệu. Mỗi nhóm sẽ được gắn một tag tương ứng trong file Swagger để Swagger UI hiển thị phân tách rõ ràng. Việc gắn tag giúp nhóm các endpoint liên quan với nhau, giúp người đọc dễ dàng định hướng trong tài liệu. Dựa trên yêu cầu, ta có 3 nhóm chính:
