@@ -26,6 +26,7 @@ Là một định dạng mô tả API dành cho REST APIs. Một file OpenAPI ch
 
 ### Swagger là gì?
 Là một công cụ mã nguồn mở để xây dựng OpenAPI specifications giúp thiết kế, xây dựng tài liệu và sử dụng REST APIs.
+
 <div style="text-align: center; border: 1px solid #ccc;">
   <img src="https://github.com/user-attachments/assets/41a992b0-7850-4175-8aed-1700a07eaac7" alt="Ảnh mẫu" style="max-width: 300px; max-height: 200px;">
 </div>
@@ -65,6 +66,16 @@ Một cấu trúc hoàn thiện được thể hiện như sau: [editor](https:/
 </div>
 
 **Phần basePath**: Đường dẫn gốc đến thư mục API của dự án
+
+**Phần tags**: Tags là cách để bạn nhóm các endpoint API lại thành từng nhóm logic rõ ràng trong tài liệu Swagger/OpenAPI. 
+Ví dụ bạn có nhiều API về upload file, chat, FAQ card — bạn tạo 3 tag tương ứng tên “Upload”, “Chat”, “FAQ Cards” để phân loại chúng.
+
+<div style="text-align: center; border: 1px solid #ccc;">
+  <img src="https://github.com/user-attachments/assets/6d095b9b-7f68-408d-bac1-2db2e0db3e5a" alt="Ảnh mẫu" style="max-width: 300px; max-height: 200px;">
+</div>
+
+**Phần Paths**: 
+
 <div style="text-align: center; border: 1px solid #ccc;">
   <img src="https://github.com/user-attachments/assets/631ef514-9c8a-4bac-94e9-2d72deb684e3" alt="Ảnh mẫu" style="max-width: 300px; max-height: 200px;">
 </div>
