@@ -121,6 +121,7 @@ Những thành phần bao gồm trong phần Definitions:
 - **items**: Khi item là array, bạn định nghĩa các item của array ở đây.
 - **required**: Các trường bắt buộc phải có dữ liệu
 - **example**: Một ví dụ mẫu để hiểu về cách thức trả về.
+Kết quả trả về UI như sau:
 
 <div style="text-align: center; border: 1px solid #ccc;">
   <img src="https://github.com/user-attachments/assets/e9532b4f-c9d8-48a7-bb34-b5a9ca34abf9" alt="Ảnh mẫu" style="max-width: 300px; max-height: 200px;">
