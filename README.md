@@ -100,3 +100,7 @@ Ví dụ bạn có nhiều API về upload file, chat, FAQ card — bạn tạo 
 <div style="text-align: center; border: 1px solid #ccc;">
   <img src="https://github.com/user-attachments/assets/dc7c91b7-4358-46e3-be4d-ddef2193f7f8" alt="Ảnh mẫu" style="max-width: 300px; max-height: 200px;">
 </div>
+
+<div style="text-align: center; border: 1px solid #ccc;">
+  <img src="https://github.com/user-attachments/assets/7a26273d-64da-4470-be65-4c55b1ff7a69" alt="Ảnh mẫu" style="max-width: 300px; max-height: 200px;">
+</div>
