@@ -104,3 +104,25 @@ Ví dụ bạn có nhiều API về upload file, chat, FAQ card — bạn tạo 
 <div style="text-align: center; border: 1px solid #ccc;">
   <img src="https://github.com/user-attachments/assets/7a26273d-64da-4470-be65-4c55b1ff7a69" alt="Ảnh mẫu" style="max-width: 300px; max-height: 200px;">
 </div>
+
+### 3.4. Definitions
+- Definitions là nơi định nghĩa các schemas(mô hình dữ liệu) mà API sử dụng. 
+- Dữ liệu nhận vào (request body) và dữ liệu trả về (response body) của API sẽ tham chiếu tới các definition này.
+- Các mo hình dữ liệu trong Definitions có thể được sử dụng lại nhiều lần ở các endpoint khác nhau, giúp tái sử dụng cấu trúc.
+Dưới đây là cấu trúc của phần **Definition**.
+
+<div style="text-align: center; border: 1px solid #ccc;">
+  <img src="https://github.com/user-attachments/assets/20667803-5d31-4865-ac97-b2d54f3677dc" alt="Ảnh mẫu" style="max-width: 300px; max-height: 200px;">
+</div>
+
+Những thành phần bao gồm trong phần Definitions:
+- **type**: dùng để định nghĩa kiểu dữ liệu(object, array, string, number...)
+- **properties**: gồm các thuộc tính của object.
+- **items**: Khi item là array, bạn định nghĩa các item của array ở đây.
+- **required**: Các trường bắt buộc phải có dữ liệu
+- **example**: Một ví dụ mẫu để hiểu về cách thức trả về.
+
+<div style="text-align: center; border: 1px solid #ccc;">
+  <img src="https://github.com/user-attachments/assets/e9532b4f-c9d8-48a7-bb34-b5a9ca34abf9" alt="Ảnh mẫu" style="max-width: 300px; max-height: 200px;">
+</div>
+
